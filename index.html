@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | Harish N</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap">
+</head>
+<body class="home">
+    <header>
+        <div class="nav-container">
+            <h1>Harish N</h1>
+            <button class="menu-toggle" aria-label="Toggle menu">&#9776;</button>
+            <ul class="nav-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <div class="hero">
+        <h1>Hi, I'm Harish N</h1>
+        <h1>Software Developer</h1>
+        <p>A passionate problem-solver with an analytical mindset. I specialize in leveraging trending technologies to solve complex problems and improve efficiency. With a strong background in software development and a knack for learning, I'm dedicated to creating innovative solutions and enhancing user experiences.</p>
+    </div>
+
+    <main>
+
+        <section>
+            <h2>Featured Projects</h2>
+            <div class="projects-grid"> 
+                <div class="project-box">
+                    <h3>API Request Monitoring Dashboard</h3>
+                    <p>A comprehensive dashboard built to monitor and analyze API request calls, for real-time data visualization and analytics.</p>
+                    <h4>Tech Stack used : </h4>
+                    <div class="tech-stack">
+                        <a href="https://nodejs.org/en" target="_blank" class="social-link" aria-label="nodejs">
+                        <img src="images/nodejs-logo.png" alt="Node.js">
+                        </a>
+                        
+                        <a href="https://docs.nestjs.com/" target="_blank" class="social-link" aria-label="nestjs">
+                        <img src="images/nestjs-logo.png" alt="Nest.js">
+                        </a>
+
+                        <a href="https://react.dev/" target="_blank" class="social-link" aria-label="react">
+                        <img src="images/react-logo.png" alt="React">
+                        </a>
+                    </div>
+                </div>
+                <div class="project-box">
+                    <h3>Skin Cancer Detection Using CNN</h3>
+                    <p>A machine learning model for detecting and classifying the types of skin cancer using CNN with high accuracy.</p>
+                    <h4>Tech Stack used : </h4>
+                    <div class="tech-stack">
+                        <!-- <h3>Tech Stack used : </h3> -->
+                        <a href="https://www.python.org/" target="_blank" class="social-link" aria-label="Python">
+                        <img src="images/python-logo.png" alt="Python">
+                        </a>
+
+                        <a href="https://colab.research.google.com/" target="_blank" class="social-link" aria-label="googleColab">
+                        <img src="images/googleColab-logo.png" alt="google colab">
+                        </a>
+                    </div>
+                </div>
+                <div class="project-box">
+                    <h3>Database Storage for Patient Chronicles using Blockchain</h3>
+                    <p>A blockchain-based medical record storage system ensuring patient data control and security.</p>
+                    <h4>Tech Stack used : </h4>
+                    <div class="tech-stack">
+                        <!-- <h3>Tech Stack used : </h3> -->
+                        <a href="https://ethereum.org/en/" target="_blank" class="social-link" aria-label="ethereum">
+                        <img src="images/Ethereum-logo.png" alt="Blockchain Ethereum">
+                        </a>
+
+                        <a href="https://soliditylang.org/" target="_blank" class="social-link" aria-label="Solidity">
+                        <img src="images/solidity-logo.png" alt="Solidity">
+
+                        <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" class="social-link" aria-label="javascript">
+                        <img src="images/javascript-logo.png" alt="javascript">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+    </main>
+
+    <button class="back-to-top" aria-label="Back to top">↑</button>
+    <script>
+        document.querySelector('.menu-toggle').addEventListener('click', function() {
+            document.querySelector('.nav-menu').classList.toggle('show');
+        });
+    </script>
+    
+    <script src="js/scripts.js"></script>
+</body>
+</html>
