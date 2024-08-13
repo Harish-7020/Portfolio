@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function() {
-    // Smooth Scrolling
+
     const links = document.querySelectorAll('a[href^="#"]');
     links.forEach(link => {
         link.addEventListener('click', function(e) {
@@ -10,14 +10,12 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
 
-    // Hamburger Menu Toggle
     const menuToggle = document.querySelector('.menu-toggle');
     const navMenu = document.querySelector('.nav-menu');
     menuToggle.addEventListener('click', () => {
         navMenu.classList.toggle('active');
     });
 
-    // Back to Top Button
     const backToTopButton = document.querySelector('.back-to-top');
     window.addEventListener('scroll', () => {
         if (window.scrollY > 300) {
